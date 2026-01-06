@@ -1,0 +1,110 @@
+h1{ color: white;
+        font-family:Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    background-color: black;
+    display:inline-block;
+      position: relative;
+  animation: myfirst 5s 80;
+  align-self: center;
+  animation-direction: alternate;
+}
+
+@keyframes myfirst {
+  0%   {left: 800px; top: 0px;}
+  25%  {left: 400px; top: 0px;}
+  50%  {left: 0px; top: 0px;}
+  75%  {left: 400px; top: 0px;}
+  100% {left: 800px; top: 0px;}
+}
+     h2{ color: white;
+        font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    background-color: black;
+    display:inline-block}
+    h3{ color: white;
+        font-family:Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    background-color: black;
+    display:inline-block}
+    p{
+        color: white;
+        font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: oblique;
+    background-color: black;
+    display:inline-block}
+#logo{
+      position: relative;
+  animation: mysecond 10s 80;
+  animation-direction: alternate;
+}
+
+@keyframes mysecond {
+  0%   {left: 0px; top: 0px;}
+  25%  {left: 500px; top: 0px;}
+  50%  {left: 1000px; top: 0px;}
+  75%  {left: 500px; top: 0px;}
+  100% {left: 0px; top: 0px;}
+}
+img{
+      position: relative;
+  animation: mythird 10s 80;
+  animation-direction: alternate;
+}
+
+@keyframes mythird {
+  0%   {left: 1350px; top: 0px;}
+  25%  {left: 675px; top: 0px;}
+  50%  {left: 0px; top: 0px;}
+  75%  {left: 675px; top: 0px;}
+  100% {left: 1350px; top: 0px;}
+}
+#only{
+        color: white;
+        font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: oblique;
+    background-color: black;
+    display:inline-block}
+#fish{
+color: white;
+        font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: oblique;
+    background-color: blue;
+    display:inline-block}
+#scallop{
+color: rgb(0, 0, 0);
+        font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: oblique;
+    background-color:turquoise;
+    display:inline-block}
+#shrimp{
+color: black;
+        font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: oblique;
+    background-color: greenyellow;
+    display:inline-block}
+#squid{
+color: black;
+        font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: oblique;
+    background-color: yellow;
+    display:inline-block}
+#octopus{
+color: black;
+        font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: oblique;
+    background-color: orange;
+    display:inline-block}
+#crab{
+color: black;
+        font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: oblique;
+    background-color:red;
+    display:inline-block}
