@@ -1,110 +1,153 @@
+
+   @font-face {
+    font-family: 'Shin Go Heavy'; /* Name you choose to use later */
+  src: url('a-otf-shin-go-pro-webfont/AOTFShinGoProHeavy.woff') format('woff2'),
+       url('a-otf-shin-go-pro-webfont/AOTFShinGoProHeavy.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Prevents invisible text while loading */
+    }
+
+    @font-face {
+    font-family: 'Shin Go Normal'; /* Name you choose to use later */
+  src: url('a-otf-shin-go-pro-webfont/AOTFShinGoProMedium.woff') format('woff2'),
+       url('a-otf-shin-go-pro-webfont/AOTFShinGoProMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Prevents invisible text while loading */
+    }
+
+    @font-face {
+    font-family: 'Shin Go Light'; /* Name you choose to use later */
+  src: url('a-otf-shin-go-pro-webfont/AOTFShinGoProLight.woff') format('woff2'),
+       url('a-otf-shin-go-pro-webfont/AOTFShinGoProLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Prevents invisible text while loading */
+    }
 h1{ color: white;
-        font-family:Arial, Helvetica, sans-serif;
-    font-size: 80px;
-    background-color: black;
-    display:inline-block;
-      position: relative;
+        font-family:'Shin Go Heavy', sans-serif;
+    font-size: 68px;
+      position: center;
   animation: myfirst 5s 80;
+  background-color: black;
+    display:inline-block;
   align-self: center;
-  animation-direction: alternate;
+  animation-direction: center;
+  text-align:center;
 }
 
 @keyframes myfirst {
-  0%   {left: 800px; top: 0px;}
-  25%  {left: 400px; top: 0px;}
-  50%  {left: 0px; top: 0px;}
-  75%  {left: 400px; top: 0px;}
-  100% {left: 800px; top: 0px;}
+  0%  {color:blue}
+  16%  {color:cyan}
+  32%  {color:greenyellow}
+  48% {color:yellow}
+  64% {color:orange}
+  80% {color:red}
+  100% {color:blue}
 }
      h2{ color: white;
-        font-family:Arial, Helvetica, sans-serif;
+        font-family:'Shin Go Normal',sans-serif;
     font-size: 40px;
     background-color: black;
-    display:inline-block}
+    display:inline-block;
+    text-align:center}
     h3{ color: white;
-        font-family:Arial, Helvetica, sans-serif;
+        font-family:'Shin Go Normal',sans-serif;
     font-size: 32px;
     background-color: black;
-    display:inline-block}
+    display:inline-block;
+    text-align:center}
     p{
         color: white;
-        font-family:Arial, Helvetica, sans-serif;
+        font-family:'Shin Go Light',sans-serif;
     font-size: 18px;
     font-style: oblique;
     background-color: black;
-    display:inline-block}
+    display:inline-block;
+    text-align:center;}
 #logo{
       position: relative;
-  animation: mysecond 10s 80;
+  animation: mysecond 3s 80;
   animation-direction: alternate;
 }
 
 @keyframes mysecond {
   0%   {left: 0px; top: 0px;}
-  25%  {left: 500px; top: 0px;}
-  50%  {left: 1000px; top: 0px;}
-  75%  {left: 500px; top: 0px;}
-  100% {left: 0px; top: 0px;}
+  33%  {left: 200px; top: 0px;}
+  66%  {left: 0px; top: 0px;}
+  100%  {left: -200px; top: 0px;}
 }
-img{
+#icon{
       position: relative;
-  animation: mythird 10s 80;
+  animation: mythird 5s 80;
   animation-direction: alternate;
 }
 
 @keyframes mythird {
-  0%   {left: 1350px; top: 0px;}
-  25%  {left: 675px; top: 0px;}
-  50%  {left: 0px; top: 0px;}
-  75%  {left: 675px; top: 0px;}
-  100% {left: 1350px; top: 0px;}
+   0%   {left: 250px; top: 0px;}
+  33%  {left: 350px; top: 0px;}
+  66%  {left: 250px; top: 0px;}
+  100%  {left: 150px; top: 0px;}
+}
+#icon{
+      size: 200px
 }
 #only{
         color: white;
-        font-family:Arial, Helvetica, sans-serif;
+        font-family:'Shin Go Normal',sans-serif;
     font-size: 18px;
     font-style: oblique;
     background-color: black;
     display:inline-block}
 #fish{
 color: white;
-        font-family:Arial, Helvetica, sans-serif;
+        font-family:'Shin Go Normal', sans-serif;
     font-size: 24px;
     font-style: oblique;
     background-color: blue;
     display:inline-block}
 #scallop{
 color: rgb(0, 0, 0);
-        font-family:Arial, Helvetica, sans-serif;
+        font-family:'Shin Go Normal', sans-serif;
     font-size: 24px;
     font-style: oblique;
     background-color:turquoise;
     display:inline-block}
 #shrimp{
 color: black;
-        font-family:Arial, Helvetica, sans-serif;
+        font-family:'Shin Go Normal', sans-serif;
     font-size: 24px;
     font-style: oblique;
     background-color: greenyellow;
     display:inline-block}
 #squid{
 color: black;
-        font-family:Arial, Helvetica, sans-serif;
+        font-family:'Shin Go Normal', sans-serif;
     font-size: 24px;
     font-style: oblique;
     background-color: yellow;
     display:inline-block}
 #octopus{
 color: black;
-        font-family:Arial, Helvetica, sans-serif;
+        font-family:'Shin Go Normal', sans-serif;
     font-size: 24px;
     font-style: oblique;
     background-color: orange;
     display:inline-block}
 #crab{
 color: black;
-        font-family:Arial, Helvetica, sans-serif;
+        font-family:'Shin Go Normal', sans-serif;
     font-size: 24px;
     font-style: oblique;
     background-color:red;
     display:inline-block}
+.centerTable {
+    margin: auto;
+    width:100%;
+}
+th,td {
+   align-items: center;
+    text-align:center;
+    padding:10px;
+}
